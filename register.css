@@ -1,0 +1,49 @@
+body{
+    background: #1690a7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+*{
+    font-family: sans-serif;
+    box-sizing:border-box;
+}
+
+form{
+    width: 400px;
+    border: 2px solid #ccc;
+    padding: 30px;
+    background: #fff;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    color: black;
+    background-color:skyblue ;
+    padding: 10px;
+    font-size:large;
+    border-radius: 10px;
+}
+
+h2{
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+input{
+    display: block;
+     border: 2px solid #ccc;
+     width: 95%;
+    padding: 10px;
+    margin: 10px auto;
+    border-radius: 5px;  
+}
+label{
+    color: rgb(196, 199, 255);
+}
